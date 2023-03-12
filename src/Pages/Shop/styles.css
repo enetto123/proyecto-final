@@ -1,0 +1,96 @@
+table{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    border: 1px solid black;
+    align-items: center;
+    padding: 20px;
+}
+
+td img{
+    object-fit: contain;
+    width: 80px;
+    height: 80px;
+}
+
+td{
+    font-size: 20px;
+}
+
+.titulos{
+    background-color: #8d1919;
+}
+
+.titulos th{
+    color: #000000;
+}
+
+td button{
+    width: 30px;
+    padding: 5px;
+    height: 30px;
+    background-color: black;
+    color: rgb(199, 55, 55);
+    cursor:pointer;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+td button:hover{
+    background-color: #237e7e;
+    color: #000000;
+}
+
+.botonesCont button{
+    margin: 0px 20px 30px 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.terminarCompra{
+    background-color: rgb(199, 55, 55);
+    font-family: 'Bernard MT Condensed';
+
+}
+
+.terminarCompra:hover{
+    background-color: rgb(110, 12, 12);
+    font-family: 'Bernard MT Condensed';
+
+}
+
+.eliminarTodo{
+    background-color: rgb(199, 55, 55);
+    font-family: 'Bernard MT Condensed';
+
+}
+.contin{
+    background-color: rgb(199, 55, 55);
+    font-family: 'Bernard MT Condensed';
+
+}
+
+.contin:hover{
+    background-color: rgb(110, 12, 12);
+    font-family: 'Bernard MT Condensed';
+
+}
+
+.eliminarTodo:hover{
+    background-color: rgb(110, 12, 12);
+    font-family: 'Bernard MT Condensed';
+
+}
+
+.sinElementos{
+    font-size: 30px;
+    font-family: 'Bernard MT Condensed';
+
+}

@@ -1,0 +1,30 @@
+#idCart{
+    background-image: url(../CartWidget/cart_pic.png);
+    background-size:cover;
+    height: 90px;
+    width: 90px;
+    transition: .3s;
+    padding: 5px;
+}
+
+#idCant{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;    
+}
+
+
+#idCart:hover{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.moneyBag{
+    display: inline-grid;
+}
+
+#idCompra{
+    align-self: center;
+    justify-self: end;
+}
